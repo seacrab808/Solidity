@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					}
+				],
+				"name": "myFun",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week4/lan.sol": "Ex4_18"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week4/lan.sol": {
+			"keccak256": "0xa3ee2b22c3275c71b9ec1c80a5b10a615bd757109f13c2c9a69bf46dc3268f79",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://55b89bb228c3dd709ad8e5b811b66b960a6cdeb308c28466e044bfbbea287055",
+				"dweb:/ipfs/QmZrY9vjwhZqvbBBdxQEzEfY1wvfvXT9w5F5zX2HXQXM86"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "plusA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week4/lan.sol": "Ex4_13"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week4/lan.sol": {
+			"keccak256": "0x9a005e2b97995a30d1267633a869796ee0c490cf04fb689b4fd496ad2ba3146c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e935090c32eaa10af472aec150b541d5b3eb8cbb48543743d50bf2ba35acf9cf",
+				"dweb:/ipfs/QmfCDsGXaHsEQ3SpqhwhP7EfcRKe5PtMjdkzSDgEUHxbtq"
+			]
+		}
+	},
+	"version": 1
+}

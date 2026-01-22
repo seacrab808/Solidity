@@ -1,0 +1,72 @@
+{
+	"id": "59510a6f7f8aaf329678a3c06da75a8e",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.31",
+	"solcLongVersion": "0.8.31+commit.fd3a2265",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"week4/lan.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\n// contract Ex4_1 {\r\n//     uint public a = 3;\r\n//     function myFun() public {\r\n//         a = 5;\r\n//     }\r\n// }\r\n\r\n// contract Ex4_2 {\r\n//     uint public a = 3;\r\n//     function myFun(uint b, uint c, uint d) public {\r\n//         a = b;\r\n//         a = c;\r\n//         a = d;\r\n//     }\r\n// }\r\n\r\n// contract Ex4_3 {\r\n//     uint public a = 3;\r\n//     uint public b = 5;\r\n//     function myFun() public returns(uint, uint) {\r\n//         a = 100;\r\n//         b = 0;\r\n//         return (a, b);\r\n//     }\r\n// }\r\n\r\n// contract Ex4_4 {\r\n//     function myFun() public pure returns(uint age, uint weight) {\r\n//         age = 31;\r\n//         weight = 60;\r\n//     }\r\n// }\r\n\r\n// contract Ex4_5 {\r\n//     uint public a = 3;\r\n//     uint public b = myFun();\r\n\r\n//     function myFun() public returns(uint) {\r\n//         a = 100;\r\n//         return a;\r\n//     }\r\n// }\r\n\r\n// contract Ex4_6 {\r\n//     int a;\r\n//     uint b;\r\n//     bool c;\r\n//     bytes d;\r\n//     string e;\r\n//     address f;\r\n\r\n//     function assignment() public view returns(int, uint, bool, bytes memory, string memory, address) {\r\n//         return(a, b, c, d, e, f);\r\n//     }\r\n// }\r\n//// 산술 연산자\r\n// contract Ex4_7 {\r\n//     uint a = 5+2;\r\n//     uint b = 5-2;\r\n//     uint c = 5*2;\r\n//     uint d = 5/5;\r\n//     uint e = 5%2;\r\n//     uint f = 5**2;\r\n\r\n//     function arithmetic() public view returns(uint, uint, uint, uint, uint, uint) {\r\n//         return(a, b, c, d, e, f);\r\n//     }\r\n// }\r\n//// 복합할당연산자(대입 + 산술연산)\r\n// contract Ex4_8 {\r\n//     uint a = 5;\r\n//     uint b = 5;\r\n//     uint c = 5;\r\n//     uint d = 5;\r\n//     uint e = 5;\r\n\r\n//     function assignment() public returns(uint, uint, uint, uint, uint) {\r\n//         a += 2; // a = a + 2\r\n//         b -= 2; // b = b - 2\r\n//         c *= 2; // c = c * 2\r\n//         d /= 5; // d = d / 5\r\n//         e %= 2; // e = e % 2\r\n//         return(a, b, c, d, e);\r\n//     }\r\n// }\r\n//// 증감연산자: 변수 값을 1씩 증가 또는 감수\r\n// contract Ex4_9 {\r\n//     uint a = 5;\r\n    \r\n//     function justA() public view returns(uint) {\r\n//         return a;\r\n//     }\r\n\r\n//     function prePlus() public returns(uint) {\r\n//         return ++a; // a = a + 1\r\n//     }\r\n\r\n//     function postPlus() public returns(uint) {\r\n//         return a++; // a = a + 1\r\n//     }\r\n// }\r\n//// 증감연산자\r\n// contract Ex4_10 {\r\n//     uint a = 5;\r\n    \r\n//     function justA() public view returns(uint) {\r\n//         return a;\r\n//     }\r\n\r\n//     function preMinus() public returns(uint) {\r\n//         return --a; // a = a + 1\r\n//     }\r\n\r\n//     function postMinus() public returns(uint) {\r\n//         return a--; // a = a + 1\r\n//     }\r\n// }\r\n//// 비교연산자\r\n// contract Ex4_11 {\r\n//     bool a = 3 > 4;\r\n//     bool b = 3 < 4;\r\n//     bool c = 5 >= 2;\r\n//     bool d = 5 <= 5;\r\n//     bool e = 3 == 2;\r\n//     bool f = 3 != 2;\r\n\r\n//     function comparison() public view returns(bool, bool, bool, bool, bool, bool) {\r\n//         return(a, b, c, d, e, f);\r\n//     }\r\n// }\r\n//// 논리연산자(AND, OR, NOT)\r\n// contract Ex4_12 {\r\n//     bool a = true&&true;\r\n//     bool b = true&&false;\r\n//     bool c = false&&false;\r\n//     bool d = true||true;\r\n//     bool e = true||false;\r\n//     bool f = false||false;\r\n//     bool g = !false;\r\n\r\n//     function logical() public view returns(bool, bool, bool, bool, bool, bool, bool) {\r\n//         return(a, b, c, d, e, f, g);\r\n//     }\r\n// }\r\n//// 상수(constant) - 변수와 달리 저장한 값을 바꿀 수 없음\r\n// contract Ex4_13 {\r\n//     uint constant A = 13;\r\n\r\n//     function plusA() public pure returns(uint) {\r\n//         return A + 10;\r\n//     }\r\n\r\n//     function changeA() public {\r\n//         A = 99; // 에러\r\n//     }\r\n// }\r\n//// pure 함수: 함수밖에 선언된 변수를 함수 내부에서 읽거나 변경 불가\r\n// contract Ex4_14 {\r\n//     function myFun(uint a) public pure returns(uint) {\r\n//         return a;\r\n//     }\r\n// }\r\n//// 오류남 - 함수 밖에서 선언된 변수를 변경 불가\r\n// contract Ex4_15 {\r\n//     uint a = 3;\r\n//     function myFun() public pure returns(uint) {\r\n//         a = 4;\r\n//         return a;\r\n//     }\r\n// }\r\n//// view 함수: 함수밖에 선언된 변수를 함수 내부에서 읽을 수 있으나 변경 불가\r\n// contract Ex4_16 {\r\n//     uint public a = 4;\r\n\r\n//     function myFun() public view returns(uint) {\r\n//         uint b = a + 5;\r\n//         return b;\r\n//     }\r\n// }\r\n//// 변경 불가 오류\r\n// contract Ex4_17 {\r\n//     uint public a = 3;\r\n\r\n//     function myFun() public view returns(uint) {\r\n//         a = 4; // 오류\r\n//         return a;\r\n//     }\r\n// }\r\n//// 솔리디티의 저장 영역 - 참조 타입이 함수의 매개변수, 반환 값 또는 내부 변수로 정의될 때는 저장공간을 명시해야 한다. -> 에러 발생\r\n// contract Ex4_18 {\r\n//     function myFun(string memory str) public pure returns(uint, string memory, bytes memory) {\r\n//             uint num = 99;\r\n//             bytes memory byt = hex\"01\";\r\n//             return(num, str, byt);\r\n//     }\r\n// }\r\n//// calldata 지정: external 함수의 참조 타입 매개변수\r\n// contract Ex4_19 {\r\n//     function myFun(string calldata str) external pure returns(string memory) {\r\n//         return str;\r\n//     }\r\n// }\r\n//// 상태변수와 지역변수 - 지연변수는 정의된 함수 밖에서 사용할 수 없다\r\n// contract Ex4_20 {\r\n//     uint public a = 3;\r\n\r\n//     function myFun1() external view returns(uint, uint) {\r\n//         uint b = 4;\r\n//         return(a, b);\r\n//     }\r\n\r\n//     /* 에러\r\n//     function myFun2() external pure returns(uint) {\r\n//         return b;\r\n//     }\r\n//     */\r\n// }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"week4/lan.sol": {
+				"ast": {
+					"absolutePath": "week4/lan.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:31:0"
+						}
+					],
+					"src": "37:5742:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

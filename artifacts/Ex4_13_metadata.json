@@ -7,13 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "changeA",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "plusA",
 				"outputs": [
 					{
@@ -54,11 +47,11 @@
 	},
 	"sources": {
 		"week4/lan.sol": {
-			"keccak256": "0x9a005e2b97995a30d1267633a869796ee0c490cf04fb689b4fd496ad2ba3146c",
+			"keccak256": "0xe9f0c10e0d840ee3c0f010a17168353364dd1da5f86c1d9ad91accc3c1b453c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e935090c32eaa10af472aec150b541d5b3eb8cbb48543743d50bf2ba35acf9cf",
-				"dweb:/ipfs/QmfCDsGXaHsEQ3SpqhwhP7EfcRKe5PtMjdkzSDgEUHxbtq"
+				"bzz-raw://57d8a4b658d058227f78e4b5568457943c61f8bd4550e22a5aee3463c2c58d7e",
+				"dweb:/ipfs/QmSNjcdzZFPkTK5s96MuZ42S4Z51uu7gV3TWEBKmtL5SQq"
 			]
 		}
 	},

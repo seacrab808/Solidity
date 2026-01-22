@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"week4/lan.sol": {
-			"keccak256": "0x24e751271bcbe7a5b88695630446207a3693a87084eaa917e46bf48f47183f93",
+			"keccak256": "0xe9f0c10e0d840ee3c0f010a17168353364dd1da5f86c1d9ad91accc3c1b453c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://13d32081a04488109828abb0057ac6eeff05288ac7cbd78a94675ab5f36d56da",
-				"dweb:/ipfs/QmRyBUYo6wMhEByGSDbRPfWxZpeHvojEjpp5rYVcnAUKwh"
+				"bzz-raw://57d8a4b658d058227f78e4b5568457943c61f8bd4550e22a5aee3463c2c58d7e",
+				"dweb:/ipfs/QmSNjcdzZFPkTK5s96MuZ42S4Z51uu7gV3TWEBKmtL5SQq"
 			]
 		}
 	},

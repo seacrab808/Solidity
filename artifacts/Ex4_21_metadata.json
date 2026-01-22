@@ -78,7 +78,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week5/lan.sol": "Ex4_21"
+			"week4/lan.sol": "Ex4_21"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -92,12 +92,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week5/lan.sol": {
-			"keccak256": "0x77625096230c7d1a295f3edb61c784bd44627a3cdfd132e0764ff8253966a587",
+		"week4/lan.sol": {
+			"keccak256": "0xe9f0c10e0d840ee3c0f010a17168353364dd1da5f86c1d9ad91accc3c1b453c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://17c2267aa525ff9099c19129a84f251792ee7cf950943019ea8ec3173a10c28c",
-				"dweb:/ipfs/QmWzMTFVwX5FnvjTFYdef16AV12dihjdnqJVdZu2kEQCGL"
+				"bzz-raw://57d8a4b658d058227f78e4b5568457943c61f8bd4550e22a5aee3463c2c58d7e",
+				"dweb:/ipfs/QmSNjcdzZFPkTK5s96MuZ42S4Z51uu7gV3TWEBKmtL5SQq"
 			]
 		}
 	},

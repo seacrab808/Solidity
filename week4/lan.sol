@@ -154,9 +154,9 @@ contract Ex4_13 {
         return A + 10;
     }
 
-    function changeA() public {
-        A = 99; // 에러
-    }
+//     function changeA() public {
+//         A = 99; // 에러
+//     }
 }
 // pure 함수: 함수밖에 선언된 변수를 함수 내부에서 읽거나 변경 불가
 contract Ex4_14 {
@@ -165,13 +165,13 @@ contract Ex4_14 {
     }
 }
 // 오류남 - 함수 밖에서 선언된 변수를 변경 불가
-contract Ex4_15 {
-    uint a = 3;
-    function myFun() public pure returns(uint) {
-        a = 4;
-        return a;
-    }
-}
+// contract Ex4_15 {
+//     uint a = 3;
+//     function myFun() public pure returns(uint) {
+//         a = 4;
+//         return a;
+//     }
+// }
 // view 함수: 함수밖에 선언된 변수를 함수 내부에서 읽을 수 있으나 변경 불가
 contract Ex4_16 {
     uint public a = 4;
@@ -186,7 +186,7 @@ contract Ex4_17 {
     uint public a = 3;
 
     function myFun() public view returns(uint) {
-        a = 4; // 오류
+        // a = 4; // 오류
         return a;
     }
 }
@@ -218,4 +218,134 @@ contract Ex4_20 {
         return b;
     }
     */
+}
+
+// 함수와 가시성 지정자 
+contract Ex4_21 {
+    uint public pub = 1;
+    uint private pri = 2;
+    uint internal inter = 3;
+    // uint external ext = 4; // external은 변수 적용 불가
+
+    function funPub() public view returns(uint, uint, uint) {
+        return(pub, pri, inter);
+    }
+
+    function funPriv() private view returns(uint, uint, uint) {
+        return(pub, pri, inter);
+    }
+
+    function funInter() internal view returns(uint, uint, uint) {
+        return(pub, pri, inter);
+    }
+
+    function funExt() external view returns(uint, uint, uint) {
+        return(pub, pri, inter);
+    }
+}
+// - public (pub): 모든 곳에서 접근 가능. Solidity가 자동으로 변수 값을 읽을 수 있는 'Getter 함수'를 만들어줌.
+
+// - private (pri): 오직 현재 컨트랙트 내부에서만 읽고 쓸 수 있음. (상속받은 자식 컨트랙트도 접근 불가)
+
+// - internal (inter): 현재 컨트랙트와 이를 상속받은 자식 컨트랙트에서 접근 가능. (상태 변수의 기본값)
+
+// - external: 변수에는 사용할 수 없음. external은 오직 함수에만 사용 가능하기 때문에 코드에서 주석 처리가 되어 있는 것.
+
+// external 함수는 내부 접근 불가
+contract Ex4_22 {
+    function funExt() external pure returns(uint) {
+        return 2;
+    }
+
+    function funPri() private pure returns(uint) {
+        return 3;
+    }
+
+    /*
+    function outPutExt() public pure returns(uint) {
+        return funExt(); // external 함수 내부 접근 불가
+    }
+    */
+
+    function outPutPri() public pure returns(uint) {
+        return funPri();
+    }
+}
+// 함수와 가시성 지정자 - this를 이용해 external 함수 내부 접근
+contract Ex4_23 {
+    function funExt() external pure returns(uint) {
+        return 2;
+    }
+
+    function outPutExt() public view returns(uint) {
+        return this.funExt(); // this 호출은 외부 호출로 간주함
+    }
+}
+// 조건문(if)
+contract Ex4_24 {
+    function fun1(uint a) public pure returns(uint) {
+        if (a>=10) {
+            a = 9;
+        }
+        return a;
+    }
+}
+// if-else
+contract Ex4_25 {
+    function fun1(uint a) public pure returns(uint) {
+        if(a > 3) {
+            a = 9;
+        } else {
+            a = 10;
+        }
+        return a;
+    }
+}
+// if-else if-else
+contract Ex4_26 {
+    function fun1(uint a) public pure returns(uint) {
+        if(a>=10) {
+            a = 9;
+        } else if(a>=5&&a<=7) {
+            a = 7;
+        } else {
+            a = 10;
+        }
+        return a;
+    }
+}
+// for 반복문
+contract Ex4_28 {
+    function fun1() public pure returns(uint) {
+        uint result = 0;
+        for(uint a = 0; a < 3; ++a) {
+            result = result + a;
+        }
+        return result;
+    }
+}
+// while 반복문
+contract Ex4_29 {
+    function fun1() public pure returns(uint) {
+        uint result = 0;
+        uint a = 3;
+        while(a>0) {
+            result = result + a;
+            --a;
+        }
+        return result;
+    }
+}
+// do-while 반복문
+contract Ex4_30 {
+    function fun1() public pure returns(uint) {
+        uint result = 0;
+        uint a = 0;
+        do {
+            result = result + a;
+            ++a;
+        } while(a < 3);
+
+        return result;
+    }
 }

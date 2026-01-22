@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.30+commit.73712a01"
+		"version": "0.8.31+commit.fd3a2265"
 	},
 	"language": "Solidity",
 	"output": {
@@ -39,7 +39,7 @@
 		"compilationTarget": {
 			"week4/lan.sol": "Ex4_4"
 		},
-		"evmVersion": "prague",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -52,11 +52,11 @@
 	},
 	"sources": {
 		"week4/lan.sol": {
-			"keccak256": "0xd09543d1988988a11003f1b8f58de8a33212f1b57f45707fd3b72c1e1dacdc7a",
+			"keccak256": "0xe9f0c10e0d840ee3c0f010a17168353364dd1da5f86c1d9ad91accc3c1b453c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b65cf220f42cdec51c61fba960567ec3b14ce70068373198b28563ed2b502505",
-				"dweb:/ipfs/QmSC2idQhfAWVNhdL3Ud42vQTU8bF7D2Zbzv1L2oenqbD5"
+				"bzz-raw://57d8a4b658d058227f78e4b5568457943c61f8bd4550e22a5aee3463c2c58d7e",
+				"dweb:/ipfs/QmSNjcdzZFPkTK5s96MuZ42S4Z51uu7gV3TWEBKmtL5SQq"
 			]
 		}
 	},

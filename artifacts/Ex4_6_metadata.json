@@ -4,46 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "assignment",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					},
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -57,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week4/lan.sol": "Ex4_6"
+			"week5/lan.sol": "Ex4_6"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -71,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week4/lan.sol": {
-			"keccak256": "0x07b02a22fec18949bf836102c43807873974e013ac942e5757e0b11de82a74de",
+		"week5/lan.sol": {
+			"keccak256": "0x094db086ec6a389337593d38ca77b2ff4e47511ec68bc5b59f7f064ecd9add7c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9f92d07005c5c6effe5e4bdd6872722a250c1edfd777ca5384be9cd448ebde2f",
-				"dweb:/ipfs/QmXr1DT9ZxEWug6WEkvzpR7oDG5mWDkdrJDVkFL2Gwhek6"
+				"bzz-raw://5b30d5b1d29fb674c44829a73cb4a78e2e66d798dbfbb4d0220664bdb8340fa6",
+				"dweb:/ipfs/QmSVkJRFSJfsjpJvd58nh1FAyHw4JrVChnMTUJNHuaQsRe"
 			]
 		}
 	},

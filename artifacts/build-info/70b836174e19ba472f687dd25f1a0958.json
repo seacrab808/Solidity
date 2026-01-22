@@ -1,0 +1,72 @@
+{
+	"id": "70b836174e19ba472f687dd25f1a0958",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.31",
+	"solcLongVersion": "0.8.31+commit.fd3a2265",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"week5/lan.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 < 0.9.0;\r\n\r\n//// 함수와 가시성 지정자 \r\n// contract Ex4_21 {\r\n//     uint public pub = 1;\r\n//     uint private pri = 2;\r\n//     uint internal inter = 3;\r\n//     // uint external ext = 4; // external은 변수 적용 불가\r\n\r\n//     function funPub() public view returns(uint, uint, uint) {\r\n//         return(pub, pri, inter);\r\n//     }\r\n\r\n//     function funPriv() private view returns(uint, uint, uint) {\r\n//         return(pub, pri, inter);\r\n//     }\r\n\r\n//     function funInter() internal view returns(uint, uint, uint) {\r\n//         return(pub, pri, inter);\r\n//     }\r\n\r\n//     function funExt() external view returns(uint, uint, uint) {\r\n//         return(pub, pri, inter);\r\n//     }\r\n// }\r\n// - public (pub): 모든 곳에서 접근 가능. Solidity가 자동으로 변수 값을 읽을 수 있는 'Getter 함수'를 만들어줌.\r\n\r\n// - private (pri): 오직 현재 컨트랙트 내부에서만 읽고 쓸 수 있음. (상속받은 자식 컨트랙트도 접근 불가)\r\n\r\n// - internal (inter): 현재 컨트랙트와 이를 상속받은 자식 컨트랙트에서 접근 가능. (상태 변수의 기본값)\r\n\r\n// - external: 변수에는 사용할 수 없음. external은 오직 함수에만 사용 가능하기 때문에 코드에서 주석 처리가 되어 있는 것.\r\n\r\n//// "
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"week5/lan.sol": {
+				"ast": {
+					"absolutePath": "week5/lan.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:32:0"
+						}
+					],
+					"src": "37:1324:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

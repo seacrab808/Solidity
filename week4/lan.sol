@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
-
+//// 간단한 함수 정의
 // contract Ex4_1 {
 //     uint public a = 3;
 //     function myFun() public {
 //         a = 5;
 //     }
 // }
-
+//// 매개변수(parameter)가 있는 function 정의
 // contract Ex4_2 {
 //     uint public a = 3;
 //     function myFun(uint b, uint c, uint d) public {
@@ -16,7 +16,7 @@ pragma solidity >=0.7.0 <0.9.0;
 //         a = d;
 //     }
 // }
-
+//// 반환(return) 값이 있는 function 정의
 // contract Ex4_3 {
 //     uint public a = 3;
 //     uint public b = 5;
@@ -26,14 +26,14 @@ pragma solidity >=0.7.0 <0.9.0;
 //         return (a, b);
 //     }
 // }
-
+//// 반환 자료형과 함께 변수명 선언
 // contract Ex4_4 {
 //     function myFun() public pure returns(uint age, uint weight) {
 //         age = 31;
 //         weight = 60;
 //     }
 // }
-
+//// 함수의 반환값 활용
 // contract Ex4_5 {
 //     uint public a = 3;
 //     uint public b = myFun();
@@ -43,7 +43,7 @@ pragma solidity >=0.7.0 <0.9.0;
 //         return a;
 //     }
 // }
-
+//// 자료형에 따른 각 변수의 기본값
 // contract Ex4_6 {
 //     int a;
 //     uint b;

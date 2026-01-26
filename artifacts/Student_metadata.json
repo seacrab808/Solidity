@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_major",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "major",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "schoolName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6/lan.sol": "Student"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6/lan.sol": {
+			"keccak256": "0xe4f4c5389c82c0d1cf8293cde7c079b76b5097fb895b737f3f9b70fa1a1ba698",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://926f6dca97ba2ca2e51820cf0a08c4ee294d510a0bf2b8cdbf1abbf3dc35d2d4",
+				"dweb:/ipfs/QmZcJ8PNtQoxPxsrDSf4C16uuvnsFZVyKN1eRHDAqCfFQm"
+			]
+		}
+	},
+	"version": 1
+}

@@ -101,11 +101,11 @@
 	},
 	"sources": {
 		"week6/lan.sol": {
-			"keccak256": "0xd397f387d19897cb577e5a83d30a9d2f946fc8b306af700b6ca320b0f68ae540",
+			"keccak256": "0x8832a01143806731cd52ed5decd99f92817e6a750eafa8e6a90cb6f58825a6b9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c193fea6b60b2d35fa2656cc8b7e540321e28dde0b6488f66577b79f3d2153c5",
-				"dweb:/ipfs/QmYge5KqMKMPucthjDG1QZgMFD6EHE4GeseC1kCKtW3b6k"
+				"bzz-raw://da582d4a9a5214b269294741b356e556df395b98f8e51bcb82f1ff2d77b67d0a",
+				"dweb:/ipfs/QmNScrfrBx2v2QFFZQQUXoXrfdqVxK3CDPtsPzWvyepg32"
 			]
 		}
 	},

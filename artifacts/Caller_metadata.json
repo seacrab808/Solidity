@@ -7,28 +7,22 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "changeNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "turnOn",
+				"name": "getNumber",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6/lan.sol": "SystemUnit"
+			"week6/lan.sol": "Caller"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -60,11 +54,11 @@
 	},
 	"sources": {
 		"week6/lan.sol": {
-			"keccak256": "0x8832a01143806731cd52ed5decd99f92817e6a750eafa8e6a90cb6f58825a6b9",
+			"keccak256": "0x4ba87f0ac4fb631da4fde73af212517985536f6d13a851f0012ce14687dac9f6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://da582d4a9a5214b269294741b356e556df395b98f8e51bcb82f1ff2d77b67d0a",
-				"dweb:/ipfs/QmNScrfrBx2v2QFFZQQUXoXrfdqVxK3CDPtsPzWvyepg32"
+				"bzz-raw://869d1cc14dfd0ae11690a1f8333bbf1c22bb1041af6d9b17ac2103e031dd546c",
+				"dweb:/ipfs/QmVLhBH4Mnh3vDcQhoHXGaUDRRWsSbMH2y96WaKJqZffX5"
 			]
 		}
 	},

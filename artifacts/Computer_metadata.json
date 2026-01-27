@@ -7,69 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "boot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getAllNames",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "monitor",
-				"outputs": [
-					{
-						"internalType": "contract Monitor",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "start",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "systemUnit",
-				"outputs": [
-					{
-						"internalType": "contract SystemUnit",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -101,11 +52,11 @@
 	},
 	"sources": {
 		"week6/lan.sol": {
-			"keccak256": "0x8832a01143806731cd52ed5decd99f92817e6a750eafa8e6a90cb6f58825a6b9",
+			"keccak256": "0x537a169a5c374ed401fd541b1c6bbe59305a002dfb3d67acb1dc5d79bb488356",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://da582d4a9a5214b269294741b356e556df395b98f8e51bcb82f1ff2d77b67d0a",
-				"dweb:/ipfs/QmNScrfrBx2v2QFFZQQUXoXrfdqVxK3CDPtsPzWvyepg32"
+				"bzz-raw://23a2ff16796f561408ab10fba60f66be994ec04deaf7d61517fc6912a9fcb0d0",
+				"dweb:/ipfs/QmaskSFJzCfnjC4k28Y3VyfXEprmoA1bXoKHfEXxuLB7MS"
 			]
 		}
 	},

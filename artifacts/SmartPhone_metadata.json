@@ -7,22 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "changeNum",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getNum",
+				"name": "boot",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6/lan.sol": "Number"
+			"week6/lan.sol": "SmartPhone"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -54,11 +52,11 @@
 	},
 	"sources": {
 		"week6/lan.sol": {
-			"keccak256": "0xa69ee19a04461a22c31daa2dc8815e4f652e3a9feada35a79267a13b21a6700e",
+			"keccak256": "0x537a169a5c374ed401fd541b1c6bbe59305a002dfb3d67acb1dc5d79bb488356",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9207bbe199c0e29307e0f020542c190c9292946358b0e49128ce90594da46c1e",
-				"dweb:/ipfs/QmQJcfJa3WJRW83w3Zahp6JjLbR7mJSxfYfgCE5gXdXX8P"
+				"bzz-raw://23a2ff16796f561408ab10fba60f66be994ec04deaf7d61517fc6912a9fcb0d0",
+				"dweb:/ipfs/QmaskSFJzCfnjC4k28Y3VyfXEprmoA1bXoKHfEXxuLB7MS"
 			]
 		}
 	},

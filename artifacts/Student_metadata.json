@@ -6,40 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "showCourses",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_major",
-						"type": "string"
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
 					}
 				],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "major",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "schoolName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,11 +47,11 @@
 	},
 	"sources": {
 		"week6/lan.sol": {
-			"keccak256": "0xe4f4c5389c82c0d1cf8293cde7c079b76b5097fb895b737f3f9b70fa1a1ba698",
+			"keccak256": "0x6d9c9f4d1c1e7c918a7978c63fbd1483b81e705638374901b1c7e1955d97ac9c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://926f6dca97ba2ca2e51820cf0a08c4ee294d510a0bf2b8cdbf1abbf3dc35d2d4",
-				"dweb:/ipfs/QmZcJ8PNtQoxPxsrDSf4C16uuvnsFZVyKN1eRHDAqCfFQm"
+				"bzz-raw://0d64fc99412a475eb21a13c566e16f8c2b1877f3c7efc7be676b3ed0e9544f1c",
+				"dweb:/ipfs/QmXrqDsZPdpcfMSDH3hiWFuoZ1tLJzVrXQ6wmVQJaq6Kfq"
 			]
 		}
 	},

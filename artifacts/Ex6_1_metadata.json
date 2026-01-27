@@ -7,15 +7,13 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "changeNum",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getNum",
+				"name": "getNumbers",
 				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -39,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6/lan.sol": "Number"
+			"week6/lan.sol": "Ex6_1"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -54,11 +52,11 @@
 	},
 	"sources": {
 		"week6/lan.sol": {
-			"keccak256": "0xa69ee19a04461a22c31daa2dc8815e4f652e3a9feada35a79267a13b21a6700e",
+			"keccak256": "0x3f1871534211340cabbed93096d245b5c838d19a1ff1ec41369e289c691a8062",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9207bbe199c0e29307e0f020542c190c9292946358b0e49128ce90594da46c1e",
-				"dweb:/ipfs/QmQJcfJa3WJRW83w3Zahp6JjLbR7mJSxfYfgCE5gXdXX8P"
+				"bzz-raw://19bd9f127112b1ab20823e3a4fd4a1b48a0695043a220185c823d944c42aaed3",
+				"dweb:/ipfs/QmTumL2KhSfoWmX6KXZy8M5QGv6gbrASWMKyq5BVPinbWH"
 			]
 		}
 	},

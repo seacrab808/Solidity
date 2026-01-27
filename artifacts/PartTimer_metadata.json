@@ -7,14 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "changeNum",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "workPlace",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getNum",
+				"name": "workingHours",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6/lan.sol": "Number"
+			"week6/lan.sol": "PartTimer"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -54,11 +60,11 @@
 	},
 	"sources": {
 		"week6/lan.sol": {
-			"keccak256": "0xa69ee19a04461a22c31daa2dc8815e4f652e3a9feada35a79267a13b21a6700e",
+			"keccak256": "0x7909184aef26ec84ec0fe288f2e4a79bd25f86a7baa86d6d9935dfc60ec7b8a4",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9207bbe199c0e29307e0f020542c190c9292946358b0e49128ce90594da46c1e",
-				"dweb:/ipfs/QmQJcfJa3WJRW83w3Zahp6JjLbR7mJSxfYfgCE5gXdXX8P"
+				"bzz-raw://0ec7ee67b99ed89fdbcc621098648d0b7bc1d8461b1ffcc70def6c816aa6df0f",
+				"dweb:/ipfs/QmZHDY5r1i1cZxBt2xJwaG6wV1NCPQkeAwqZRfiG1TsH7m"
 			]
 		}
 	},

@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num3",
+						"type": "uint256"
+					}
+				],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6/lan.sol": "Calculator"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6/lan.sol": {
+			"keccak256": "0x3f1871534211340cabbed93096d245b5c838d19a1ff1ec41369e289c691a8062",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://19bd9f127112b1ab20823e3a4fd4a1b48a0695043a220185c823d944c42aaed3",
+				"dweb:/ipfs/QmTumL2KhSfoWmX6KXZy8M5QGv6gbrASWMKyq5BVPinbWH"
+			]
+		}
+	},
+	"version": 1
+}
